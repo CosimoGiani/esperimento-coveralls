@@ -9,4 +9,4 @@ cache:
       - $HOME/.m2
 
 script:
-    - mvn -f coveralls/pom.xml clean verify
+    - mvn -f coveralls/pom.xml clean verify -Pjacoco
